@@ -5,7 +5,7 @@ def run_guessing_game
   case guess
   when "exit"
     puts "Goodbye!"
-  when comp_guess
+  when comp_guess.to_i
     puts "Comp guess: #{comp_guess} & guess: #{guess}"
     puts "You guessed the correct number!"
   else
