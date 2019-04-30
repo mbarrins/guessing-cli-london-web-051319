@@ -15,4 +15,3 @@ def run_guessing_game
     puts "The computer guessed #{comp_guess}."
   end
 end
-  
