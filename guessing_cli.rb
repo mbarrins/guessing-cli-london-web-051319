@@ -17,6 +17,7 @@ def run_guessing_game
       # puts "Comp guess: #{comp_guess} & guess: #{guess}"
       puts "The computer guessed #{comp_guess}."
     end
+  end
 
   puts "Goodbye!"
 end
