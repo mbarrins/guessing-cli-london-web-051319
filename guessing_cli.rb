@@ -6,8 +6,8 @@ def run_guessing_game
   if guess == "exit"
     puts "Goodbye!"
   elsif guess == comp_guess.to_i
-    puts comp_guess.class
-    puts guess.class
+    puts comp_guess.class.to_s
+    puts guess.class.to_s
     puts "Comp guess: #{comp_guess} & guess: #{guess}"
     puts "You guessed the correct number!"
   else
