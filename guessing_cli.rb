@@ -7,7 +7,7 @@ def run_guessing_game
   binding.pry
   if guess == "exit"
     puts "Goodbye!"
-  elsif guess == comp_guess.to_i
+  elsif guess.to_i == comp_guess
     puts comp_guess.class.to_s
     puts guess.class.to_s
     puts "Comp guess: #{comp_guess} & guess: #{guess}"
